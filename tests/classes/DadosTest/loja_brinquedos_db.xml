@@ -1,0 +1,212 @@
+<dataset>
+    <table name="clientes">
+        <column>idCliente</column>
+        <column>dataCad</column>
+        <column>ativo</column>
+        <column>nome</column>
+        <column>sexo</column>
+        <column>dataNasc</column>
+        <column>tipoDoc</column>
+        <column>documento</column>
+        <column>endereco</column>
+        <column>cep</column>
+        <column>logradouro</column>
+        <column>bairro</column>
+        <column>numero</column>
+        <column>complemento</column>
+        <column>estado</column>
+        <column>cidade</column>
+        <column>telefone</column>
+        <column>celular</column>
+        <column>email</column>
+        <row>
+            <value>100</value>
+            <value>2019-01-01 01:01:01</value>
+            <value>S</value>
+            <value>Antonio</value>
+            <value>M</value>
+            <value>1995-12-12</value>
+            <value>CPF</value>
+            <value>01234567890</value>
+            <value>Rua BD</value>
+            <value>491000</value>
+            <value>Rua</value>
+            <value>Loiola</value>
+            <value>10</value>
+            <value>Casa</value>
+            <value>Sergipe</value>
+            <value>Aracaju</value>
+            <value>7936313123</value>
+            <value>7999999999</value>
+            <value>teste@email.com</value>
+        </row>
+        <row>
+            <value>101</value>
+            <value>2019-02-02 01:01:01</value>
+            <value>S</value>
+            <value>Ana</value>
+            <value>F</value>
+            <value>1995-12-12</value>
+            <value>CPF</value>
+            <value>01113456789</value>
+            <value>Rua C</value>
+            <value>4910000</value>
+            <value>Rua</value>
+            <value>Loiola</value>
+            <value>10</value>
+            <value>Casa</value>
+            <value>Sergipe</value>
+            <value>Aracaju</value>
+            <value>7936313123</value>
+            <value>7945789631</value>
+            <value>teste@email2.com</value>
+        </row>
+        <row>
+            <value>102</value>
+            <value>2019-02-02 01:01:01</value>
+            <value>S</value>
+            <value>Joana</value>
+            <value>F</value>
+            <value>1995-11-12</value>
+            <value>CPF</value>
+            <value>00012345679</value>
+            <value>Rua C</value>
+            <value>4910000</value>
+            <value>Rua</value>
+            <value>Loiola</value>
+            <value>10</value>
+            <value>Casa</value>
+            <value>Sergipe</value>
+            <value>Aracaju</value>
+            <value>7979797979</value>
+            <value>7878787878</value>
+            <value>teste@email3.com</value>
+        </row>
+    </table>
+    <table name="produtos">
+        <column>idProduto</column>
+        <column>dataCad</column>
+        <column>nome</column>
+        <column>ativo</column>
+        <column>descricao</column>
+        <column>modelo</column>
+        <column>marca</column>
+        <column>preco</column>
+        <column>observacoes</column>
+        <column>quantidade</column>
+        <row>
+            <value>60</value>
+            <value>2019-02-02 01:01:01</value>
+            <value>Carrinho</value>
+            <value>S</value>
+            <value>Carro de controle remoto</value>
+            <value>A</value>
+            <value>Beta</value>
+            <value>10.99</value>
+            <value>Nenhuma</value>
+            <value>49</value>
+        </row>
+        <row>
+            <value>61</value>
+            <value>2019-02-02 01:01:01</value>
+            <value>Boneca</value>
+            <value>S</value>
+            <value>Boneca que fala</value>
+            <value>AA</value>
+            <value>Beta</value>
+            <value>11.99</value>
+            <value>Nenhuma</value>
+            <value>5</value>
+        </row>
+        <row>
+            <value>62</value>
+            <value>2019-02-02 01:01:01</value>
+            <value>Boneco</value>
+            <value>S</value>
+            <value>Boneco que anda e fala</value>
+            <value>AC</value>
+            <value>Beta</value>
+            <value>49.50</value>
+            <value>Nenhuma</value>
+            <value>10</value>
+        </row>
+        <row>
+            <value>63</value>
+            <value>2019-02-02 01:01:01</value>
+            <value>Robô</value>
+            <value>S</value>
+            <value></value>
+            <value>AD</value>
+            <value>Beta</value>
+            <value>100.99</value>
+            <value>Nenhuma</value>
+            <value>5</value>
+        </row>
+        <row>
+            <value>64</value>
+            <value>2019-02-02 01:01:01</value>
+            <value>Skate</value>
+            <value>S</value>
+            <value></value>
+            <value>AL</value>
+            <value>Beta</value>
+            <value>249.99</value>
+            <value>Nenhuma</value>
+            <value>0</value>
+        </row>
+    </table>
+    <table name="pedidos">
+        <column>idPedido</column>
+        <column>dataCad</column>
+        <column>ativo</column>
+        <column>dataPedido</column>
+        <column>formaPagamento</column>
+        <column>numParcelas</column>
+        <column>idCliente</column>
+        <column>valorTotalVenda</column>
+        <column>valorParcela</column>
+        <row>
+            <value>1000</value>
+            <value>2019-02-02 01:01:01</value>
+            <value>S</value>
+            <value>2019-12-04</value>
+            <value>DE</value>
+            <value></value>
+            <value>101</value>
+            <value>50.99</value>
+            <value></value>
+        </row>
+        <row>
+            <value>1001</value>
+            <value>2019-02-02 01:01:01</value>
+            <value>S</value>
+            <value>2019-12-04</value>
+            <value>CD</value>
+            <value>10</value>
+            <value>101</value>
+            <value>100</value>
+            <value>10</value>
+        </row>
+    </table>
+    <table name="pedidos_produtos">
+        <column>idPedidoProduto</column>
+        <column>idProduto</column>
+        <column>idPedido</column>
+        <column>dataCad</column>
+        <column>ativo</column>
+        <row>
+            <value>200</value>
+            <value>61</value>
+            <value>1000</value>
+            <value>2019-02-02 01:01:01</value>
+            <value>S</value>
+        </row>
+        <row>
+            <value>201</value>
+            <value>62</value>
+            <value>1000</value>
+            <value>2019-02-02 01:01:01</value>
+            <value>S</value>
+        </row>
+    </table>
+</dataset>

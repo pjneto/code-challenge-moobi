@@ -1,0 +1,22 @@
+{
+    "name": "antoniocarlosmjr/code-challenge-moobi-developer",
+    "description": "Desafio Moobi Tech Loja de Brinquedos",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antonio Martins",
+            "email": "carlos12antoni@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": { 
+        "psr-4": {
+            "CodeChallengeMoobi\\": "app/classes"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0",
+        "phpunit/dbunit": "^4.0"
+    }
+}
